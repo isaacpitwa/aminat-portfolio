@@ -3,9 +3,11 @@
 * {
   box-sizing: border-box;
   scroll-behavior: smooth;
+
+}
+html{
   margin: 0;
 }
-
 .menu {
   position: fixed;
   z-index: 100;
@@ -554,6 +556,8 @@ form {
   display: flex;
   align-items: center;
   flex-direction: column;
+  z-index: 10;
+  margin-top: -16px;
 }
 
 #desktop-popup {
